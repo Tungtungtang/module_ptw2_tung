@@ -1,0 +1,27 @@
+$color_top_title:#3eaafd;
+.type-84{
+    margin: 50px 0;
+    text-align: center;
+    .title{
+        margin: 0 auto;
+        max-width: 800px;
+        .top-title{
+            color: $color_top_title;
+        }
+    }
+    .swiperjs{
+        cursor: pointer;
+        
+        .slide{
+            max-width: 250px;
+            .img-1{
+                padding: 20px;
+
+            }
+            .img-2{
+                padding: 20px;
+            }
+        }
+    
+    }
+}

@@ -1,0 +1,25 @@
+$colorHover: #a8642a;
+$width-img:150px;
+.type-58{
+    margin:30px;
+    .all{
+      color: blue;
+    }
+    .row-module{
+      padding:  30px 0;
+      border-top: 1px solid #dee2e6;
+    }
+    .nav-fill{
+      margin: 0 auto;
+          width: 350px;
+          padding: 10px;
+
+    }
+    a{
+      color: black;
+      &:hover{
+        color: $colorHover;
+        text-decoration: none;
+      }
+    }
+}

@@ -1,26 +1,41 @@
+$color_hover:#3eaafd;
 .type-17{
 	margin: 20px;
+    img{
+            border-radius:1.5%;
 
+        }
+    .title-module{
+        text-align: center;
+    }
 	.item-left{
-/*		border-radius:2%;
-		border:1px solid red;*/
+        padding: 3px;
 		position: relative;
 
 			.nl-item-image-left{
 				position: relative;
 				img{
             	width: 100%;
+                cursor: pointer;
         		}
         	.nl-contents-left{
         		color: white;
             	position: absolute;
             	bottom: 0px;
             	left:15px;
-            	span{
-                	padding-left: 8px;
-            	}
-        	}
-		}
+            	   span{
+                	   padding-left: 8px;
+            	   }
+        	   }
+		    }
+            .name-img-left{
+                text-decoration: none;
+                color: white;
+                &:hover{
+                    color:$color_hover;
+                }
+            }
+        
 	}
 	.item-right{
 /*		border-radius:2%;
@@ -29,6 +44,7 @@
 		position: relative;
 		.nl-item-image-right{
 			position: relative;
+            cursor: pointer;
 				img{
             	width: 100%;
             }
@@ -37,10 +53,19 @@
             	position: absolute;
             	bottom: 0px;
             	left:15px;
+                
             	span{
                 	padding-left: 8px;
             	}
         	}
+            .name-img-right{
+
+                text-decoration: none;
+                color: white;
+                &:hover{
+                    color:$color_hover;
+                }
+            }
 
 		}
 	}

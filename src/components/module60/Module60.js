@@ -1,9 +1,9 @@
 import React from 'react';
-import './sass/Module61.scss';
+import './sass/Module60.scss';
 import 'bootstrap/dist/css/bootstrap.min.css';
-export default function Module61(){
+export default function Module60(){
     return(
-        <div className="type-61">
+        <div className="type-60">
             <div className="container">
                 <div className="row">
                     <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">

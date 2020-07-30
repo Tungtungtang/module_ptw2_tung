@@ -38,7 +38,7 @@ $color_hover:#3eaafd;
             font-weight: 500;
             font-family: poppins,sans-serif;
             &:hover{
-                color:$color_hover;
+                column-rule: $color_hover;
             }
         }
         a{
