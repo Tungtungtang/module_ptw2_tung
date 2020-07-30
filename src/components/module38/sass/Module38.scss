@@ -1,0 +1,30 @@
+$color_icon_shopping: #9a30d8;
+$color_icon_dolar: blue;
+$color_boder_bot: #757575;
+.type-38{
+    margin-top: 50px;
+    margin-bottom: 10px;
+        .shopping{
+            text-decoration: none;
+            color: $color_icon_shopping;
+        }
+        .title{
+            font-weight: 999;
+        }
+        .price{
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            top: 50;
+            right: 100px;
+        }
+        .icon-dolar{
+            color: $color_icon_dolar;
+        }
+        .nav1{
+            background: white;
+            color: red;
+            border-top: 1px solid $color_boder_bot;
+            margin: 15px 0;
+        }
+}

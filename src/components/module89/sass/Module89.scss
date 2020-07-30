@@ -1,0 +1,37 @@
+.type-89{
+    margin: 50px 0;
+    .title{
+        text-align: center;
+        margin: 50px auto;
+            .title_top{
+            color: blue;
+            }
+            .title_small{
+                color: #242424; 
+            }
+        }
+    .swiperjs{
+        line-height: 1.8;
+        cursor: pointer;
+        height: 260px;
+        .swiper-pagination{
+            bottom: 0px !important;
+         }
+        .play_icon{
+            text-decoration: none;
+            color: black;
+            &:hover{
+                color: blue;
+            }
+        }
+        .contents_swiper{
+            color: #242424;
+            font-size: 1em;
+        }
+        .slide{
+            padding: 20px;
+            border: 1px solid #757576;
+            border-radius: 5px;
+        }
+    }
+}

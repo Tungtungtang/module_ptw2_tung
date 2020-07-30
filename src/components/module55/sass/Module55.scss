@@ -1,0 +1,26 @@
+$color_hover:#3eaafd;
+$color_boder:#ddd;
+.type-55{
+	margin: 80px 0;
+	max-width: 400px;
+	.title{
+		margin: 20px 0;
+	}
+	.btn-menu{
+		text-decoration: none;
+	}
+	.menu{
+		padding: 5px 10px;
+		margin: 10px 0;
+		border: 1px solid $color_boder;
+		color: black;
+		background: white;
+		&:hover{
+			color: $color_hover;
+			transition: 0.4s;
+		}
+	}
+	.home{
+		color: $color_hover;
+	}
+}

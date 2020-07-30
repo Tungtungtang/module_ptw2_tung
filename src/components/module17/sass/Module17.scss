@@ -1,0 +1,47 @@
+.type-17{
+	margin: 20px;
+
+	.item-left{
+/*		border-radius:2%;
+		border:1px solid red;*/
+		position: relative;
+
+			.nl-item-image-left{
+				position: relative;
+				img{
+            	width: 100%;
+        		}
+        	.nl-contents-left{
+        		color: white;
+            	position: absolute;
+            	bottom: 0px;
+            	left:15px;
+            	span{
+                	padding-left: 8px;
+            	}
+        	}
+		}
+	}
+	.item-right{
+/*		border-radius:2%;
+		border:1px solid red;*/
+		padding: 3px;
+		position: relative;
+		.nl-item-image-right{
+			position: relative;
+				img{
+            	width: 100%;
+            }
+            .nl-contents-right{
+        		color: white;
+            	position: absolute;
+            	bottom: 0px;
+            	left:15px;
+            	span{
+                	padding-left: 8px;
+            	}
+        	}
+
+		}
+	}
+}
