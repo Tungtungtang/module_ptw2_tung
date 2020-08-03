@@ -1,0 +1,32 @@
+$color_hover_blue:#3eaafd;
+.type-21{
+    margin: 50px 0;
+    text-align: center;
+    .title{
+        margin: 50px auto;
+        max-width: 800px;
+    }
+    .swiperjs{
+        cursor: pointer;
+        width: 800px;
+        .slide{
+            max-width: 250px;
+        }
+        .title_swiper{
+            color: black;
+            font-size: 1em;
+            margin-top: 20px;
+            font-weight: 500;
+            &:hover{
+                color:$color_hover_blue;
+                transition: all .35s;
+            }
+        }
+    }
+    img{
+        max-width: 100%;
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+    }
+}

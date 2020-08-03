@@ -1,0 +1,21 @@
+$color_contents:#757575;
+$color_btn:#3eaafd;
+.type-96{
+    margin-top: 50px;
+    .container-module96{
+        text-align: center;
+        .contents{
+            color: $color_contents;
+        }
+        .button-mid{
+            margin: 15px 0;
+            background: $color_btn;
+            padding: 10px 15px;
+            font-weight: bold;
+            color: white;
+            border: none;
+            border-radius: 3px;
+        }
+        button:focus {outline:0;}
+    }
+}

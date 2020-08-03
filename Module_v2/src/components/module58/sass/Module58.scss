@@ -1,0 +1,26 @@
+$colorHover: #a8642a;
+$width-img:150px;
+.type-58{
+    margin:30px;
+    .row-module{
+      padding:  30px 0;
+      border-top: 1px solid #dee2e6;
+    }
+    .nav-tabs {
+      margin: auto 0;
+      justify-content: center;
+      text-align: center;
+      .nav-link {
+        border: none;
+    }
+    
+    a{
+      color: black;
+      &:hover{
+        color: $colorHover;
+        text-decoration: none;
+      }
+    }
+    a:focus {outline:0;}
+  }
+}
